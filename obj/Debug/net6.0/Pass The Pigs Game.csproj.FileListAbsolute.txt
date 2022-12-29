@@ -13,3 +13,33 @@ C:\Users\Anssi\Desktop\Pass The Pigs Game\obj\Debug\net6.0\refint\Pass The Pigs 
 C:\Users\Anssi\Desktop\Pass The Pigs Game\obj\Debug\net6.0\Pass The Pigs Game.pdb
 C:\Users\Anssi\Desktop\Pass The Pigs Game\obj\Debug\net6.0\Pass The Pigs Game.genruntimeconfig.cache
 C:\Users\Anssi\Desktop\Pass The Pigs Game\obj\Debug\net6.0\ref\Pass The Pigs Game.dll
+D:\GitHub\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.csproj.AssemblyReference.cache
+D:\GitHub\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.AssemblyInfoInputs.cache
+D:\GitHub\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.AssemblyInfo.cs
+D:\GitHub\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.csproj.CoreCompileInputs.cache
+D:\GitHub\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.dll
+D:\GitHub\PassThePigs\obj\Debug\net6.0\refint\Pass The Pigs Game.dll
+D:\GitHub\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.pdb
+D:\GitHub\PassThePigs\bin\Debug\net6.0\Pass The Pigs Game.exe
+D:\GitHub\PassThePigs\bin\Debug\net6.0\Pass The Pigs Game.deps.json
+D:\GitHub\PassThePigs\bin\Debug\net6.0\Pass The Pigs Game.runtimeconfig.json
+D:\GitHub\PassThePigs\bin\Debug\net6.0\Pass The Pigs Game.dll
+D:\GitHub\PassThePigs\bin\Debug\net6.0\Pass The Pigs Game.pdb
+D:\GitHub\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.genruntimeconfig.cache
+D:\GitHub\PassThePigs\obj\Debug\net6.0\ref\Pass The Pigs Game.dll
+D:\PassThePigs\bin\Debug\net6.0\Pass The Pigs Game.exe
+D:\PassThePigs\bin\Debug\net6.0\Pass The Pigs Game.deps.json
+D:\PassThePigs\bin\Debug\net6.0\Pass The Pigs Game.runtimeconfig.json
+D:\PassThePigs\bin\Debug\net6.0\Pass The Pigs Game.dll
+D:\PassThePigs\bin\Debug\net6.0\Pass The Pigs Game.pdb
+D:\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.csproj.AssemblyReference.cache
+D:\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.GeneratedMSBuildEditorConfig.editorconfig
+D:\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.AssemblyInfoInputs.cache
+D:\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.AssemblyInfo.cs
+D:\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.csproj.CoreCompileInputs.cache
+D:\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.dll
+D:\PassThePigs\obj\Debug\net6.0\refint\Pass The Pigs Game.dll
+D:\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.pdb
+D:\PassThePigs\obj\Debug\net6.0\Pass The Pigs Game.genruntimeconfig.cache
+D:\PassThePigs\obj\Debug\net6.0\ref\Pass The Pigs Game.dll

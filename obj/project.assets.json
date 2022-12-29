@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anssi\\Desktop\\Pass The Pigs Game\\Pass The Pigs Game.csproj",
+      "projectUniqueName": "D:\\PassThePigs\\Pass The Pigs Game.csproj",
       "projectName": "Pass The Pigs Game",
-      "projectPath": "C:\\Users\\Anssi\\Desktop\\Pass The Pigs Game\\Pass The Pigs Game.csproj",
+      "projectPath": "D:\\PassThePigs\\Pass The Pigs Game.csproj",
       "packagesPath": "C:\\Users\\Anssi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anssi\\Desktop\\Pass The Pigs Game\\obj\\",
+      "outputPath": "D:\\PassThePigs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

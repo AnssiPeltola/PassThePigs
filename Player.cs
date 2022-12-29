@@ -4,7 +4,8 @@ namespace PassThePigs
     {
         // References:
         public string name;
-        private Scoreboard points;
+        public Scoreboard points;
+        public int score;
 
         public Player(string name)
         {
@@ -14,19 +15,13 @@ namespace PassThePigs
 
         public void UseTurn()
         {
-            PigJar setOfPigs = new PigJar();
-            int[] score = setOfPigs.TossingPigs();
+            // Makes a new pig
+            PigJar pig = new PigJar();
+            // Score is what Throw value is
+            score = pig.TossingPigs();
+            // Records your Throw() to player points and does what RecordResult switch case does
+            this.points.RecordResult(score);
+            
         }
-        /* public bool Less100Points()
-        {
-            if (this.points.scores < 100)
-            {
-                return true;
-            }
-            else 
-            {
-                return false;
-            }
-        } */
     }
 }
