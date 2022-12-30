@@ -4,12 +4,14 @@ namespace PassThePigs
     {
         // References:
         public int points;
+        // public List<int> turnPoints; // Mabey use this to gather this turn points because pig out wipes only current TURN points.
 
         public Scoreboard()
         {
             this.points = 0;
         }
 
+        // Scoreboard // Need to fix that has better chance to low points and harder to get good points <- Dice has to be bigger and cases between bigger numbers.
         public void RecordResult(int score)
         {
             switch (score)
@@ -84,11 +86,12 @@ namespace PassThePigs
                 Console.WriteLine("Double Leaning Jowler. Worth of 60 points");
                 break;
 
+                // Needs fix to end turn
                 case 16:
-                // How to make this? Gotta return back to points player had at start of turn.
                 Console.WriteLine("You got Pig out! You get 0 points from this round and you have to pass turn to next player!");
                 break;
 
+                // Need fix to end turn
                 case 18:
                 this.points = 0;
                 Console.WriteLine("You got Makin' Bacon. Your total score from the game is wiped out! Pass turn to next player!");
@@ -96,12 +99,24 @@ namespace PassThePigs
             }
         }
 
+        // Adds points to his totalscore // Needs abit fix because now pig out wont cut players turn!
         public int CountScore()
         {
             int endScore = 0;
             endScore = endScore + this.points;
 
             return endScore;
+        }
+
+        // Checks if player has 100 or over points
+        public bool PointsOver100()
+        {
+            if (this.points <= 100)
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }

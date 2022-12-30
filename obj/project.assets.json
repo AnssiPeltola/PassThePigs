@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PassThePigs\\Pass The Pigs Game.csproj",
+      "projectUniqueName": "F:\\GitHub\\PassThePigs\\Pass The Pigs Game.csproj",
       "projectName": "Pass The Pigs Game",
-      "projectPath": "D:\\PassThePigs\\Pass The Pigs Game.csproj",
+      "projectPath": "F:\\GitHub\\PassThePigs\\Pass The Pigs Game.csproj",
       "packagesPath": "C:\\Users\\Anssi\\.nuget\\packages\\",
-      "outputPath": "D:\\PassThePigs\\obj\\",
+      "outputPath": "F:\\GitHub\\PassThePigs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

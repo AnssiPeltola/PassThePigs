@@ -22,22 +22,20 @@ namespace PassThePigs
             for (int i = 1; i <= howManyPlayers; i++)
             {
                 Console.WriteLine("Give player " + i + " a name.");
-                string name = Console.ReadLine();
+                string? name = Console.ReadLine();
                 players[i-1] = new Player(name);
             }
 
             // Players play game till winner is found (100 or over points)
-            // while (points <= 100)
-            //{
-                
-            
+            while (true)
+            {
                 // While (player wants to continue or lose his turn)
                 foreach (Player player in players)
                 {
                     Console.WriteLine("Player " + player.name);
                     player.UseTurn();
                 }
-            //}
+            }
         }
     }
 }

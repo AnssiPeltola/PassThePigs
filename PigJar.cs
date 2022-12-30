@@ -14,11 +14,14 @@ namespace PassThePigs
         // Tosses pig(s) and returns its score
         public int TossingPigs()
         {
-            int score = 0;
+            while (true)
+            {
+                int score = 0;
 
-            score = pigs.Throw();
+                score = pigs.Throw();
 
-            return score;
+                return score;
+            }
         }
     }
 }
