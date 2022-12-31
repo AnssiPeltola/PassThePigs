@@ -14,7 +14,7 @@ namespace PassThePigs
         public int Throw()
         {
             Random draw = new Random();
-            value = draw.Next(1, 19);
+            value = draw.Next(1, 17);
             return value;
         }
     }

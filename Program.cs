@@ -32,6 +32,7 @@ namespace PassThePigs
                 // While (player wants to continue or lose his turn)
                 foreach (Player player in players)
                 {
+                    Console.WriteLine("");
                     Console.WriteLine("Player " + player.name);
                     player.UseTurn();
                 }

@@ -23,20 +23,31 @@ namespace PassThePigs
             score = pig.TossingPigs();
             // Records your Throw() to player points and does what RecordResult switch case does
             this.points.RecordResult(score);
+
+            // Checks if player gets Pig out or Makin' Bacon. Breaks loop and passes turn to next player
+            if (score == 15 || score == 16)
+            {
+                break;
+            }
+
             // Tells player how many points at the moment
             Console.WriteLine(this.name + " has now " + this.points.CountScore() + " points.");
 
+            // Checks if players points is 100 or higher after recording score.
             if (!this.points.PointsOver100())
                     {
                         Console.WriteLine("Player " + this.name + " got over 100 points and won!");
                         Environment.Exit(0);
                     } 
 
+            // Asks if player wants to continue or pass turn to next player.
             Console.WriteLine("Do you want to throw again? (Yes / No)");
                 if (Console.ReadLine() == "No")
                 {
                     break;
                 }
+
+                Console.WriteLine("");
             }
         }
     }
