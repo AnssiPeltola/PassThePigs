@@ -6,15 +6,19 @@ namespace PassThePigs
         public string name;
         public Scoreboard points;
         public int score;
+        public int scoreBeforeThrow;
 
         public Player(string name)
         {
             this.name = name;
             this.points = new Scoreboard();
+            this.scoreBeforeThrow = this.points.points;
         }
 
         public void UseTurn()
         {
+            ScoreBeforeThrow();
+
             while (true)
             {
             // Makes a new pig
@@ -24,9 +28,18 @@ namespace PassThePigs
             // Records your Throw() to player points and does what RecordResult switch case does
             this.points.RecordResult(score);
 
-            // Checks if player gets Pig out or Makin' Bacon. Breaks loop and passes turn to next player
-            if (score >= 141 && score <= 155 || score >= 156 && score <= 160 )
+            // Checks if player gets Pig out. Player get 0 points from this round. Breaks loop and passes turn to next player
+            if (score >= 141 && score <= 155)
             {
+                this.points.points = scoreBeforeThrow;
+                Console.WriteLine(this.name + " has now " + this.points.CountScore() + " points.");
+                break;
+            }
+
+            // Checks if player gets Makin' Bacon. Resets points back to 0 and passes turn to next player.
+            if (score >= 156 && score <= 160)
+            {
+                Console.WriteLine(this.name + " has now " + this.points.CountScore() + " points.");
                 break;
             }
 
@@ -49,6 +62,13 @@ namespace PassThePigs
 
                 Console.WriteLine("");
             }
+        }
+
+        // Method to store points where player started current turn.
+        public int ScoreBeforeThrow()
+        {
+            this.scoreBeforeThrow = this.points.points;
+            return scoreBeforeThrow;
         }
     }
 }
