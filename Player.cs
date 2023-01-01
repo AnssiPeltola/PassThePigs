@@ -25,7 +25,7 @@ namespace PassThePigs
             this.points.RecordResult(score);
 
             // Checks if player gets Pig out or Makin' Bacon. Breaks loop and passes turn to next player
-            if (score == 15 || score == 16)
+            if (score >= 141 && score <= 155 || score >= 156 && score <= 160 )
             {
                 break;
             }
