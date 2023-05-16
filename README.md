@@ -12,7 +12,7 @@ Pass the Pigs is a fun and addictive dice game where players roll pig-shaped dic
 3. **Build**: Open a terminal or command prompt and navigate to the project directory. Run the following command to build the game:
 
 ```shell
-dotnet build
+dotnet build```
 
 4. **Run**: After the build is successful, run the following command to start the game:
 ```shell
