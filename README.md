@@ -13,3 +13,9 @@ Pass the Pigs is a fun and addictive dice game where players roll pig-shaped dic
 
 ```shell
 dotnet build
+
+4. **Run**: After the build is successful, run the following command to start the game:
+```shell
+dotnet run
+
+5. **Gameplay**: The game will display instructions on how to play. Follow the prompts and enter your choices via the console. Roll the pigs and watch them land in different positions:
