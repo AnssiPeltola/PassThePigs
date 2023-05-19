@@ -24,7 +24,7 @@ dotnet run
 - "Yes" if you want to trow more.
 - "No" if u dont want to trow more.
 
-6. **Scoring**: The game will calculate and display the score based on the position of the pigs. The score will accumulate as you progress through the game.
+6. **Scoring**: The game will calculate and display the score based on the position of the pigs. The score will accumulate as you progress through the game. In each turn, two pigs are thrown simultaneously, and the score is determined by the combination of the two pigs positions.
 - All the possible pig landings:
 ```
 1. "Sider": Both pigs land on their sides. Worth 1 point.
@@ -47,7 +47,6 @@ dotnet run
 - Simulates the Pass the Pigs dice game in the console.
 - Interactive gameplay with clear instructions and prompts.
 - Real-time scoring system to track the progress of each player.
-- Supports multiple rounds and allows for replayability.
 
 ## Dependencies
 The Pass the Pigs console game has the following dependencies:
